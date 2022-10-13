@@ -765,7 +765,7 @@ margin-top: -44px;
   .field {
     height: 40px;
     position: relative;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px; */
 
   }
   
@@ -827,18 +827,20 @@ margin-top: -44px;
     border: 1px solid;
     border-radius: 2px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: var(--main-sir-color);
+    background-color: var(--main-one-color);
+}
   
   .privacy-icon {
     display: flex;
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   /* transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: var(--main-sir-color);
-    background-color: var(--main-one-color);
-    margin-top: -2px;
-
+    background-color: var(--main-one-color);*/
+   
   }
  .privacy-input{
     position: absolute;
@@ -863,7 +865,6 @@ margin-top: -44px;
     font-size: 14px;
     line-height: 1.7;
     margin-left: 9px;
-    letter-spacing: 3%;
   }
  
 
@@ -882,7 +883,7 @@ margin-top: -44px;
         border-radius: 4px;
         font-size: 16px;
         margin: auto;
-         margin-top: 20px;
+         margin-top: 30px;
         font-weight: 700;
         display: flex;  
        align-items: center;
@@ -982,8 +983,8 @@ margin-top: -44px;
 }
 .svg-send {
     margin-left: 10px;
-    width: 13px;
-    height: 13px;
+   /* width: 24px;
+    height: 24px;*/
 }
 
 .div_anime { display: flex;
