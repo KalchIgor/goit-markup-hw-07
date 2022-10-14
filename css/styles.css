@@ -781,6 +781,10 @@ margin-top: -44px;
     border-color: var(--main-one-color);
   }
  
+  input:checked {
+   background-color: #2196F3;
+  }
+ 
   .field-input {
     padding: 11px 15px 11px 40px;
   }
