@@ -157,10 +157,9 @@ a.logo.active.logo-activ
    padding-top: 20px;
    padding-bottom: 24px;
 }
-.footer-wraper__logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+
+
+.footer-wrap {  align-items: flex-start;
 }
 
 
@@ -573,10 +572,10 @@ a.logo.active.logo-activ
     justify-content: start;
   
 }
-
+/*
 .addres__footer {
 margin-top: -44px;
-}
+}*/
 .footer__icon {
     fill:var(--main-sir-color);
   
@@ -754,7 +753,7 @@ margin-top: -44px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     color: var(--main-se-color);
   }
   
@@ -878,6 +877,7 @@ margin-top: -44px;
     font-size: 14px;
     line-height: 1.7;
     margin-left: 9px;
+    color: var(--main-to-color);
   }
  
    .privacy-link {
@@ -1014,4 +1014,9 @@ margin-top: -44px;
 }
 .div_anime {
     fill: var(--main-to-color);
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
