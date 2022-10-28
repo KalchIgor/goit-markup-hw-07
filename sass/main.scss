@@ -1,55 +1,8 @@
-body { 
-    font-family:'Roboto', 'Times New Roman',  sans-serif;
-}
-html {
-    box-sizing: border-box;
-}
-   
-*,
-::before,
-::after {
-    box-sizing: inherit;
-}
-  
-:root {
-    --main-one-color: #2196F3;
-    --main-to-color:  #757575;
-    --main-sir-color:  #FFFFFF;
-    --main-fa-color: #2F303A;
-    --main-se-color:  #212121;
-    --main-so-color:  #F5F4FA ;
-    --main-sr-color:  #000000;
-    --main-btn-color:  #188CE8;
-    --main-icn-cololor:#F5F5F5;
-    --main-icon-color: #AFB1B8;
+@import "./base/normalize" ;
+@import "./base/fonts";
+@import "./base/reser";
+@import "./utils/vars";
 
-  }
-header 
-  {
-    border: 1px solid #ECECEC;
-      
- }
-img {
-    display: block;
-}
-  
-a { 
-    text-decoration: none; /* Отменяем подчеркивание у ссылки */
-   }
-a {   margin: 0px;}
-li , ul {
-    list-style-type: none; /* Убираем маркеры */
-    padding: 0px;
-    margin: 0px;
-}
-h1 { 
-    text-transform: uppercase; /* Заглавные буквы */
-   }
-h1, h2, h3, p , header , main{
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-ul { padding-inline-start: 0px; }
 
 .header__list ,.header__list-two{
     font-weight: 500;
