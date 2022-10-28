@@ -2,43 +2,11 @@
 @import "./base/fonts";
 @import "./base/reser";
 @import "./utils/vars";
+@import "./components/container";
+@import "./components/header";
+@import "./components/logo";
 
 
-.header__list ,.header__list-two{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.7;
-    align-items: center;
-}
-
-
-.header__list, .header__list-two {
-    justify-content: space-between;
-    display: flex;
-    margin: 0px;
-  
-}
-
-.header__list-two
-{
-    margin-left: auto;
-}
-
-.promo  {
-    color:  var(--main-se-color);
-}
-
-.navigation-li {
-    color:  var(--main-to-color);}
-
-.active:hover,.active:focus  {
-    color:  var(--main-one-color);
- fill: #188CE8;
-}
-
-.navigation-a, .navigation-bi {
-    color:var(--main-one-color);
-}
  
 .hero-big {
     width: 700px;
@@ -85,33 +53,6 @@
 
 }
 
-.logo { 
-    font-family:Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.38;
-    color: var(--main-sr-color);
-    display: inline-block;
-}   
-
-.logo-web, .logo-b{
-    color:
-    var(--main-one-color);
-} 
-.logo-a , .logo-wite { 
-    color: var(--main-sir-color);
-}
-.logo-a.active{
-    margin-bottom: 20px;
-}
-a.logo.active.logo-activ
-{
-  margin-right:93px ; 
-   padding-top: 20px;
-   padding-bottom: 24px;
-}
-
-
 .footer-wrap {  align-items: flex-start;
 }
 
@@ -119,12 +60,7 @@ a.logo.active.logo-activ
 .section-comand {
     background-color: var(--main-so-color);
 }
-/*
-.bend { 
-   
-    padding-bottom: 50px;
-   
-}*/
+
 .section-tehnology__item
 {
     width: 270px; 
@@ -328,15 +264,6 @@ a.logo.active.logo-activ
     margin-top: 0px;
 }
 
-.container {
-    max-width: 1200px;
-    padding-left: 15px; 
-    padding-right: 15px; 
-    margin-left: auto ;
-    margin-right: auto ;
-    align-items: center;
-   
-}
 
    
 .header__wrapper-q { display: flex;
@@ -375,14 +302,18 @@ a.logo.active.logo-activ
     margin-left: 50px;
     margin-right: 50px;
 } 
-.div_anime {
-    margin-left: 32px;
-}
 
 
 .address-ul {
     margin: 0px;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 .section-frend {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -586,6 +517,10 @@ margin-top: -44px;
 }
 
 /*animashn*/
+
+.div_anime {
+    margin-left: 32px;
+}
 
  .animashn::after {
     content: '';
@@ -963,9 +898,4 @@ margin-top: -44px;
 }
 .div_anime {
     fill: var(--main-to-color);
-}
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
 }

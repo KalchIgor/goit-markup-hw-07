@@ -316,6 +316,15 @@ ul {
   --main-icon-color: #AFB1B8;
 }
 
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
 .header__list, .header__list-two {
   font-weight: 500;
   font-size: 14px;
@@ -348,6 +357,33 @@ ul {
 
 .navigation-a, .navigation-bi {
   color: var(--main-one-color);
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.38;
+  color: var(--main-sr-color);
+  display: inline-block;
+}
+
+.logo-web, .logo-b {
+  color: var(--main-one-color);
+}
+
+.logo-a, .logo-wite {
+  color: var(--main-sir-color);
+}
+
+.logo-a.active {
+  margin-bottom: 20px;
+}
+
+a.logo.active.logo-activ {
+  margin-right: 93px;
+  padding-top: 20px;
+  padding-bottom: 24px;
 }
 
 .hero-big {
@@ -393,33 +429,6 @@ ul {
   cursor: pointer;
 }
 
-.logo {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.38;
-  color: var(--main-sr-color);
-  display: inline-block;
-}
-
-.logo-web, .logo-b {
-  color: var(--main-one-color);
-}
-
-.logo-a, .logo-wite {
-  color: var(--main-sir-color);
-}
-
-.logo-a.active {
-  margin-bottom: 20px;
-}
-
-a.logo.active.logo-activ {
-  margin-right: 93px;
-  padding-top: 20px;
-  padding-bottom: 24px;
-}
-
 .footer-wrap {
   align-items: flex-start;
 }
@@ -428,12 +437,6 @@ a.logo.active.logo-activ {
   background-color: var(--main-so-color);
 }
 
-/*
-.bend { 
-
-    padding-bottom: 50px;
-
-}*/
 .section-tehnology__item {
   width: 270px;
   /* flex-basis: calc((100% - 30px*3)/4);*/
@@ -647,15 +650,6 @@ a.logo.active.logo-activ {
   margin-top: 0px;
 }
 
-.container {
-  max-width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-}
-
 .header__wrapper-q {
   display: flex;
   flex-wrap: wrap;
@@ -688,12 +682,14 @@ a.logo.active.logo-activ {
   margin-right: 50px;
 }
 
-.div_anime {
-  margin-left: 32px;
-}
-
 .address-ul {
   margin: 0px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .section-frend {
@@ -901,6 +897,10 @@ margin-top: -44px;
 }
 
 /*animashn*/
+.div_anime {
+  margin-left: 32px;
+}
+
 .animashn::after {
   content: "";
   position: absolute;
@@ -1281,10 +1281,4 @@ input:checked {
 
 .div_anime {
   fill: var(--main-to-color);
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
 }/*# sourceMappingURL=main.css.map */

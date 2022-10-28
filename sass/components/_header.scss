@@ -1,0 +1,36 @@
+
+.header__list ,.header__list-two{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    align-items: center;
+}
+
+
+.header__list, .header__list-two {
+    justify-content: space-between;
+    display: flex;
+    margin: 0px;
+  
+}
+
+.header__list-two
+{
+    margin-left: auto;
+}
+
+.promo  {
+    color:  var(--main-se-color);
+}
+
+.navigation-li {
+    color:  var(--main-to-color);}
+
+.active:hover,.active:focus  {
+    color:  var(--main-one-color);
+ fill: #188CE8;
+}
+
+.navigation-a, .navigation-bi {
+    color:var(--main-one-color);
+}
