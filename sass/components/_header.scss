@@ -34,3 +34,49 @@
 .navigation-a, .navigation-bi {
     color:var(--main-one-color);
 }
+
+.navigation-a ,.animashn, .navigation-bi {
+    position: relative;
+}
+
+.navigation-a::after, .navigation-bi::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: var(--main-one-color);
+    height: 4px;
+    left: 0px;
+    top: 46px;
+    border-radius: 2px;
+}
+
+
+.tel-heder {
+    width: 10px; ;
+    height: 16px;
+   }
+
+.mail-heder {
+    width: 16px;
+    height:12px ;
+}
+
+.mail-heder,.tel-heder {
+    margin-right: 10px;
+}
+
+.heder__n {
+    color: var(--main-one-color);
+}
+
+.heder__a {
+    color:  var(--main-se-color) ;
+}
+   
+.header__wrapper-q { display: flex;
+    flex-wrap: wrap; 
+    align-items: baseline;
+  justify-content: start;
+
+}
