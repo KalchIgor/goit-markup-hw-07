@@ -81,16 +81,12 @@
   }
   
   .privacy {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex ;  
     margin-bottom: 30px;
   }
   
   .privacy-wrapp {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex ;  
     width: 16px;
     height: 15px;
     border: 2px solid;
@@ -102,9 +98,7 @@
 }
   
   .privacy-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex ;  
     opacity: 0;
    
   }
@@ -154,9 +148,7 @@
        margin-left: auto;
        margin-right: auto;
         font-weight: 700;
-        display: flex;  
-       align-items: center;
-       justify-content: center;
+        @extend %flex ;  
        cursor: pointer;
      
      }
