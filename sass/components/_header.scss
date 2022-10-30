@@ -3,15 +3,8 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.7;
-    align-items: center;
-}
-
-
-.header__list, .header__list-two {
-    justify-content: space-between;
-    display: flex;
+    @extend %flex ;
     margin: 0px;
-  
 }
 
 .header__list-two
@@ -28,7 +21,7 @@
 
 .active:hover,.active:focus  {
     color:  var(--main-one-color);
- fill: #188CE8;
+    fill: #188CE8;
 }
 
 .navigation-a, .navigation-bi {
